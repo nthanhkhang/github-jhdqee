@@ -1,3 +1,3 @@
-# github-jhdqee
+# Basic example
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jhdqee)
+![next-translate](../../images/translation-prerendered.gif 'Translations in prerendered pages')

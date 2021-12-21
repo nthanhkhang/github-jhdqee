@@ -1,17 +1,17 @@
-import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Router from 'next/router';
-import useTranslation from 'next-translate/useTranslation';
+import React from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Router from 'next/router'
+import useTranslation from 'next-translate/useTranslation'
 
-import styles from './header.module.css';
+import styles from './header.module.css'
 
 export default function Header() {
-  const { t, lang } = useTranslation();
-  const title = t('common:title');
+  const { t, lang } = useTranslation()
+  const title = t('common:title')
 
   function changeToEn() {
-    Router.push('/', undefined, { locale: 'en' });
+    Router.push('/', undefined, { locale: 'en' })
   }
 
   return (
@@ -44,5 +44,5 @@ export default function Header() {
         )}
       </header>
     </>
-  );
+  )
 }
